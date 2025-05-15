@@ -28,12 +28,14 @@ uvicorn main:app --reload
 L'app sarà disponibile su http://localhost:8000
 
 ## 📂 Struttura del progetto
+
+```text
 .
-├── main.py # Applicazione principale FastAPI con routing e logica NLP
-├── requirements.txt # File delle dipendenze del progetto
-└── templates/ # Cartella dei template HTML
-├── form.html # Pagina iniziale con il form per inserire il testo
-└── riassunto.html # Pagina che mostra il risultato del riassunto
+├── main.py              # Applicazione principale FastAPI con routing e logica NLP
+├── requirements.txt     # File delle dipendenze del progetto
+└── templates/           # Cartella dei template HTML
+    ├── form.html        # Pagina iniziale con il form per inserire il testo
+    └── riassunto.html   # Pagina che mostra il risultato del riassunto
     
 💡 Esempi futuri
 Nel codice sono presenti commenti che anticipano l'integrazione di altre funzionalità tramite Hugging Face, come:
