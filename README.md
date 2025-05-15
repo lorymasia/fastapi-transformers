@@ -42,8 +42,11 @@ L'app sarà disponibile su http://localhost:8000
 Nel codice sono presenti commenti che anticipano l'integrazione di altre funzionalità tramite Hugging Face, come:
 
 Analisi del sentimento
+
 Generazione di testo
+
 Traduzioni
+
 Classificazione zero-shot
 
 📖 Licenza
