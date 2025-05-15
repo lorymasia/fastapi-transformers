@@ -27,13 +27,13 @@ Per avviare il server FastAPI in locale:
 uvicorn main:app --reload
 L'app sarà disponibile su http://localhost:8000
 
-📂 Struttura dei file
+## 📂 Struttura del progetto
 .
-main.py              # File principale dell'app FastAPI
-requirements.txt     # Dipendenze Python
-templates/
-    form.html        # Form per inserire il testo da riassumere
-    riassunto.html   # Pagina di output con il riassunto
+├── main.py # Applicazione principale FastAPI con routing e logica NLP
+├── requirements.txt # File delle dipendenze del progetto
+└── templates/ # Cartella dei template HTML
+├── form.html # Pagina iniziale con il form per inserire il testo
+└── riassunto.html # Pagina che mostra il risultato del riassunto
     
 💡 Esempi futuri
 Nel codice sono presenti commenti che anticipano l'integrazione di altre funzionalità tramite Hugging Face, come:
